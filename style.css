@@ -1,0 +1,106 @@
+*{box-sizing:border-box}
+body,table{
+    border: 3px solid red;
+    margin: 0px;
+}
+header,nav,section,aside,footer{
+    border: 3px solid blue;
+    font-family:serif;
+    text-align: center;
+}
+header{
+    width:100%;
+    background-color: darkgray;
+    height: 150px;
+}
+nav{
+    width: 20%;
+    float: left;
+    height: 400px;
+    background-color:darkslategrey;
+}
+section{
+    width: 60%;
+    float: left;
+    height: 400px;
+    background-color: darkgray;
+}
+aside{
+    width: 20%;
+    float: left;
+    height: 400px;
+    background-color: darkgray;
+}
+footer{
+    width:100%;
+    clear: left;
+}
+#logo{
+    width: 200px;
+    margin: 40px;
+    float: left;
+}
+section{
+    width: 60%;
+    float: left;
+    height: 400px;
+}
+table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb={4E8A7C};
+    color: white;
+    text-shadow: 4px 6px 2px black;
+}
+#S{
+    background-color: burlywood;
+    
+}
+#A{
+   color: aqua;
+}
+iframe{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width=800px){
+    section {
+        width:80%;
+    }
+    aside{
+        width:100%;
+    }
+}
+@media only screen and (max-width=500px){
+    nav,section,aside{
+        width:100%;
+    }
+}
+navlink{
+    display: block;
+    padding-top: 6px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+a:link{
+    color: bisque;
+}
+a:hover{
+    background-color: darkgray;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    border-radius: 20px 0px 0px 20px;
+    transition: 1.25s;
+    transform: translateX(15px);
+    padding-left: 10px;
+}
+a:visited{
+    color: darkgray;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 2px 2px 4px white;
+}

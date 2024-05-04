@@ -1,0 +1,23 @@
+tr,th,td{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb={4E8A7C};
+    color: white;
+    text-shadow: 4px 6px 2px black;
+}
+#S{
+    background-color: burlywood;
+    
+}
+#A{
+   color: aqua;
+}
